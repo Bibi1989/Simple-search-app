@@ -3,11 +3,13 @@ import React from 'react';
 import './App.css';
 
 import SearchBar from './components/SearchBar'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div>
       <SearchBar />
+      <Footer />
     </div>
   );
 }

@@ -2,13 +2,14 @@ import React, { useState, useEffect } from 'react'
 import { Container, Input, Button } from 'semantic-ui-react'
 import styled from 'styled-components'
 import DisplayFood from './DisplayFood'
+import Logo from './views/Logo'
 
 // 1B1C1D
 
 const Div = styled.div`
-    background: #9796f0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #9796f0;
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  
+    background: linear-gradient(to right, #fbc7d4, #9796f0);
 
     color: #ffffff;
     height: 100vh;
@@ -19,7 +20,7 @@ const Div = styled.div`
 
 const Grids = styled.div`
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 `
 
 const H1 = styled.h1`
@@ -95,15 +96,11 @@ const SearchBar = () => {
     return (
         <Parent>
             <Div>
+                <Logo />
                 <Grids>
                     <Container text>
-                        <H1>FREE LEGAL ADVICE FOR SMES</H1>
-                            <P>Easy Legal is a USSD and SMS based solution that provides free, efficient and custom made legal advice to SME owners and workers!</P>
-                    </Container>
-                    <Container text>
-                        <Paragragh>
-                            <H1>DAIL *347*05#</H1>
-                        </Paragragh>
+                        <H1>Simple Search App Users Lookup</H1>
+                        <P>Simple searching app for looking up users Details, company details and addresses. Single page app, efficient and optimize to search users fast</P>
                     </Container>
                 </Grids>
                 <SearchInput>
