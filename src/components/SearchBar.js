@@ -41,14 +41,14 @@ const ButtonSearch = styled.div`
     align-self: center;
 ` 
 
-const Paragragh = styled.div`
-    background: #ffffff;
-    color: #000;
-    padding: 5% 0;
-    margin: 0 25% 0 10%;
-    font-size: 1.5em;
-    border-radius: 10%;
-`
+// const Paragragh = styled.div`
+//     background: #ffffff;
+//     color: #000;
+//     padding: 5% 0;
+//     margin: 0 25% 0 10%;
+//     font-size: 1.5em;
+//     border-radius: 10%;
+// `
 
 const P = styled.p`
     padding: 2% 10%;
@@ -74,6 +74,8 @@ const SearchBar = () => {
     useEffect(() => {
         fetch(url).then(res => res.json()).then(data => setHit(data)).catch(err => console.log(err))
         setShow(false)
+
+        // eslint-disable-next-line
     }, [search])
 
     // console.log(hit)
@@ -96,7 +98,7 @@ const SearchBar = () => {
     return (
         <Parent>
             <Div>
-                <Logo />
+                
                 <Grids>
                     <Container text>
                         <H1>Simple Search App Users Lookup</H1>

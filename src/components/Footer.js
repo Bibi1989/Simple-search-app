@@ -4,22 +4,22 @@ import styled from 'styled-components'
 
 const Footer = () => (
     <Footers>
-        <div class="footer-first">
-            <div class="footer-content">
+        <div className="footer-first">
+            <div className="footer-content">
                 <h1>Contacts Details</h1>
                 <p>(+234, 111,234,4567)</p>
                 <p>(lookup@gmail.com)</p>
                 <p>(www.bibi.com.ng)</p>
             </div>
-            <div class="icon-footer">
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-twitter"></i>
-                <i class="fa fa-whatsapp"></i>
-                <i class="fa fa-instagram"></i>
+            <div className="icon-footer">
+                <i className="fa fa-facebook"></i>
+                <i className="fa fa-twitter"></i>
+                <i className="fa fa-whatsapp"></i>
+                <i className="fa fa-instagram"></i>
             </div>
         </div>
 
-        <div class="copy-right">
+        <div className="copy-right">
             <span>
                 Copyright &copy; bibi.inc
             </span>

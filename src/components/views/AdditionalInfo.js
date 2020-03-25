@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+// import styled from 'styled-components'
 import { List } from 'semantic-ui-react'
 
 export const AdditionalInfo = ({searchItem}) => (
@@ -10,7 +10,7 @@ export const AdditionalInfo = ({searchItem}) => (
             <List.Icon name='address card' size='large' verticalAlign='middle' />
             <List.Content>
                 <List.Header as='a'>Street</List.Header>
-                <List.Description as='a' style={{padding: "10px"}}  style={{padding: "10px"}}>{searchItem.address.street}</List.Description>
+                <List.Description as='a' style={{padding: "10px"}}>{searchItem.address.street}</List.Description>
             </List.Content>
             </List.Item>
             <List.Item>

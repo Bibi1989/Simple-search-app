@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+// import styled from 'styled-components'
 import { List } from 'semantic-ui-react'
 
 export const CompanyInfo = ({searchItem}) => (
@@ -10,7 +10,7 @@ export const CompanyInfo = ({searchItem}) => (
             <List.Icon name='flag' size='large' verticalAlign='middle' />
             <List.Content>
                 <List.Header as='a'>Company Name</List.Header>
-                <List.Description as='a' style={{padding: "10px"}}  style={{padding: "10px"}}>{searchItem.company.name}</List.Description>
+                <List.Description as='a' style={{padding: "10px"}}>{searchItem.company.name}</List.Description>
             </List.Content>
             </List.Item>
             <List.Item>

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { List } from 'semantic-ui-react'
+// import { List } from 'semantic-ui-react'
 
 // views
 import { CompanyInfo } from './views/CompanyInfo'
